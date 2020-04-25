@@ -1,0 +1,51 @@
+
+.btnDesign{
+    font-size: 2vw;
+    font-weight: bold;
+    width: 24vw;
+    border-radius: 5vw;
+    border: 0;
+    margin: 1vw;
+    color: white;
+    background-color: transparent;
+    height: 10vh;
+    border-bottom: 0.7vw solid rgba(54, 54, 54, 0.726);
+    box-shadow:  0 0 2vw rgba(0, 0, 0, 0.623);
+cursor: pointer;
+}
+
+.btnDesign:active{
+    border-bottom: 0.3vw solid rgb(54, 54, 54);
+}
+
+.btnDesign:focus
+{
+    outline: none;
+}
+
+.btnDesign:hover
+{
+    transform: scale(1.1);
+}
+.displayFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-device-width: 600px) and (min-device-width: 300px) {
+    .btnDesign {
+        width: 40vw;
+        height: 15vh;
+        font-size: 3.5vw;
+        border-bottom:2vw solid rgb(179, 179, 179);
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    }
+    .btnDesign:active{
+        border-bottom: 1vw solid rgb(112, 112, 112);
+    }
+    .btnDesign:hover {
+        transform: none;
+    }
+    
+}

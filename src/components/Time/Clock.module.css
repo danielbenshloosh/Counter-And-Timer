@@ -1,0 +1,14 @@
+.displayedTime{
+    margin: 0;
+    font-size: 5vw;
+    text-shadow: 0 0 3vw rgba(24, 24, 24, 0.493);
+}
+h1{
+    margin: 0;
+}
+@media only screen and (max-device-width: 600px) and (min-device-width: 300px) {
+    .displayedTime {
+        font-size: 8vw;
+
+    }
+}

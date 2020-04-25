@@ -1,0 +1,16 @@
+.Time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: red; */
+    flex: 1;
+
+}
+.MinAndSec{
+    background: gray;
+    display: flex;
+}
+
+.displayFlex{
+    display: flex;
+}

@@ -1,0 +1,75 @@
+.AddingBtnDiv{
+    display: flex;
+}
+.AddingBtn
+{
+    padding: 0.5vw;
+    font-size: 3vw;
+    color: white;
+    width: 5vw;
+    height: 5vw;
+    /* background: linear-gradient(to right ,rgb(146, 146, 146),#6DD5FA,rgb(255, 255, 255)); */
+    background: rgb(20, 20, 20);
+    border: none;
+    margin: 1vw;
+    border-bottom: 0.7vw solid rgba(105, 105, 105, 0.726);
+    border-radius:5vw;
+    box-shadow:  0 0 2vw rgb(0, 0, 0);
+    cursor: pointer;
+
+}
+.AddingBtn:active
+{
+    border-bottom: 0.2vw solid rgb(61, 61, 61);
+}
+.AddingBtn:focus
+{
+    outline: none;
+}
+
+.AddingBtn:hover
+{
+    transform: scale(1.2);
+}
+.widthBigger
+{
+    width: 20vw;
+    border-radius:5vw;
+
+}
+.btn1{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:60%;
+    background-image: url('../../../assets/play.svg');
+}
+.btn2{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:60%;
+    background-image: url('../../../assets/pause.svg');
+}
+.btn3{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:60%;
+    background-image: url('../../../assets/stop.svg');
+}
+@media only screen and (max-device-width: 600px) and (min-device-width: 300px) {
+    .AddingBtn {
+        width: 15vw;
+        height: 15vw;
+        border-radius: 50%;
+        font-size: 8vw;
+        border-bottom:2.2vw solid rgb(102, 102, 102);
+        -webkit-tap-highlight-color: rgba(32, 32, 32, 0);
+        transition: ease-in 0.03s;
+    }
+    .AddingBtn:hover {
+        transform: none;
+    }
+    .AddingBtn:active {
+        border-bottom:2vw solid rgb(51, 51, 51);
+
+    }
+}
