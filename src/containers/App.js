@@ -9,7 +9,7 @@ class App extends Component {
     render() {
         console.log('[App.js] ' + classes.App)
         return (
-             <div >
+             <div className={classes.html}>
             {/*  <MetaTags> */}
                     <title>Daniel Ben Shloosh</title>
                     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />

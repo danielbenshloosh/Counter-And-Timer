@@ -1,5 +1,13 @@
+.Cockpit {
+    /*   height: 100vh;
+   */    display: flex;
+      align-items: center;
+      padding: 1vw;
+      /* background: yellow; */
+      flex-direction: column;
+  }
 .Counter {
-    min-height: 100vw;
+    min-height: 20vw;
     padding: 1vw;
     display: flex;
     flex-direction: column;
@@ -28,26 +36,22 @@
 
 }
 
-.Cockpit {
-  /*   height: 100vh;
- */    display: flex;
-    align-items: center;
-    padding: 1vw;
-    background: linear-gradient(to left bottom , #1f4037,#99f2c8 );
-    /* background: yellow; */
-}
+
 .btnDesign{
+    
     font-size: 2vw;
     font-weight: bold;
     width: 24vw;
     border-radius: 5vw;
     border: 0;
     margin: 1vw;
-    background:linear-gradient(to top right ,#1f4037,#99f2c8 );
+    background: linear-gradient(to right top , #43C6AC,#191654);
     height: 10vh;
-    border-bottom: 0.7vw solid #43C6AC;
+    border-bottom: 0.7vw solid rgba(67, 198, 172, 0.623);
     box-shadow:  0 0 2vw rgba(0, 0, 0, 0.623);
 cursor: pointer;
+margin-top: 10vw;
+
 }
 .threeD {
   color: darkgrey;
@@ -69,15 +73,15 @@ cursor: pointer;
     .Cockpit {
 
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }.Timer {
         background: linear-gradient(to bottom,#73C8A9 , #373B44);
 
     margin-bottom: 2vw;
     }
     .Counter {
-        background: linear-gradient(to bottom, #373B44, #73C8A9);
-    }
+/*         background: linear-gradient(to bottom, #373B44, #73C8A9);
+ */    }
     .threeD {
       
         font-size: 10vw;

@@ -15,10 +15,10 @@ body
     width: 7vw;
     height: 7vw;
     /* background: linear-gradient(to right ,rgb(146, 146, 146),#6DD5FA,rgb(255, 255, 255)); */
-    background: rgb(20, 20, 20);
+    background: transparent;
     border: none;
     margin: 2vw;
-    border-bottom: 0.7vw solid rgb(90, 90, 90);
+    border-bottom: 0.7vw solid   rgba(67, 198, 172, 0.616);
     border-radius: 5vw;
     box-shadow: 0 0 2vw rgb(0, 0, 0);
     cursor: pointer;
@@ -30,7 +30,7 @@ body
     margin-top: 0.5vw;
     width: 90%;
     height: 1vw;
-    background: rgba(255, 255, 255, 0.582);
+    background: linear-gradient(from right top , #43C6AC,#191654);
     box-shadow: 0 0 2vw rgb(0, 0, 0);
 
     border-radius: 5vw;
@@ -130,8 +130,8 @@ body
         width: 12vw;
         height:12vw;
         border-radius: 50%;
-        font-size: 8vw;
-        border-bottom: 2vw solid rgb(104, 104, 104);
+        font-size: 7vw;
+        border-bottom: 2vw solid   rgba(67, 198, 172, 0.411);
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
     }
@@ -154,7 +154,7 @@ body
     }
 
     .Btn:active {
-        border-bottom: 1.5vw solid rgb(54, 54, 54);
+        border-bottom: 1.3vw solid   rgba(67, 198, 172, 0.171);
     }
 
     .Btn:hover {

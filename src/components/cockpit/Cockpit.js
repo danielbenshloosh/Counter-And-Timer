@@ -83,13 +83,15 @@ class Cockpit extends Component {
         console.log('[App.js] ' + classes.App)
         return (
             <div className={classes.Cockpit}>
+
                 <div className={classes.Counter}>
                     <Teams
                         handleClickPlusOrMinusOrReset={this.handleClickPlusOrMinusOrReset}
                         teamsMethod={this.handleClickAddOrRemoveTeam}
                         teams={this.state.teams}></Teams>
                 </div>
-                <button className={classes.btnDesign} onClick={this.clickShowHideTime}>Show Timer</button>
+                                <button className={classes.btnDesign} onClick={this.clickShowHideTime}>Show Timer</button>
+
                 {this.state.showTime?<div>
                     <div className={classes.Timer}>
                 <div className={classes.threeD}>
